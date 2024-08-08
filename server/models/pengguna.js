@@ -24,22 +24,18 @@ Pengguna.init({
     },
     no_hp: {
         type: DataTypes.INTEGER,
-        allowNull: false,
         unique: true,
     },
     no_kk: {
         type: DataTypes.INTEGER,
-        allowNull: false,
         unique: true,
     },
     no_ktp: {
         type: DataTypes.INTEGER,
-        allowNull: false,
         unique: true,
     },
     foto_kk: {
         type: DataTypes.STRING,
-        allowNull: false,
     },
     orangtua: {
         type: DataTypes.INTEGER,
